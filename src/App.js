@@ -59,6 +59,7 @@ class App extends Component {
           <StyledAppBar>
             <h2>Assemble Store</h2>
           </StyledAppBar>
+          {/** Components are just for viewing in dev mode.  Refactor into Router */}
           <ReviewCart cart={this.state.cart} />
           <CheckoutForm />
         </div>
